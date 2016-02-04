@@ -2,9 +2,9 @@
     <string name="app_name">HairStyle</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="prompt_email">User</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -13,4 +13,23 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <!-- Exceptions Strings -->
+    <string name="delete_exeption">Ocorreu um erro durante a exclusão dos dados.</string>
+    <string name="generic_exeption">Ocorreu um erro desconhecido.</string>
+    <string name="insertion_exeption">Ocorreu um erro durante a inserção dos dados.</string>
+    <string name="invalidType_exeption">A string não corresponde ao tipo: </string>
+    <string name="notImplemented_exeption">
+        A funcionalidade pode não ter sido implementada ainda.
+    </string>
+    <string name="read_exeption">
+        Não foi possível conectar a base de dados ou não existem registros compatíveis com sua
+        pesquisa.
+    </string>
+    <string name="update_exeption">Ocorreu um erro ao alterar o registro - </string>
+    <string name="database_exception">Ocorreu um erro durante o acesso ao banco de dados.</string>
+    <string name="usuported_exception">
+        Essa operação não é permitida para esse tipo de dado.
+    </string>
+
 </resources>
