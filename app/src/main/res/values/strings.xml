@@ -31,5 +31,7 @@
     <string name="usuported_exception">
         Essa operação não é permitida para esse tipo de dado.
     </string>
+    <string name="title_activity_atendimentos">Atendimentos</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
