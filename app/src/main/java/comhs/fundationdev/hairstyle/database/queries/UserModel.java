@@ -1,13 +1,11 @@
 package comhs.fundationdev.hairstyle.database.queries;
 
 import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import comhs.fundationdev.hairstyle.R;
-import comhs.fundationdev.hairstyle.database.repository.Banco;
 import comhs.fundationdev.hairstyle.database.repository.persistence.PersistencySingleton;
 import comhs.fundationdev.hairstyle.database.repository.persistence.UserPersistency;
 import comhs.fundationdev.hairstyle.exeption.DataExeption;
@@ -24,8 +22,6 @@ import comhs.fundationdev.hairstyle.negocio.objects.User;
  */
 public class UserModel extends Model{
     private  UserPersistency percistency;
-    private Banco banco;
-    private SQLiteDatabase db;
 
     public UserModel(Context context)
     {

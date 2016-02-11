@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,7 +7,43 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".view.fragments.AtendimentosFragment"
-    tools:showIn="@layout/activity_atendimentos">
+    tools:showIn="@layout/activity_atendimentos"
+    android:orientation="vertical">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atendimentosClientes"
+        android:layout_weight="0.1" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atendimentosSevicos"
+        android:layout_weight="0.1" />
 
-
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/valor"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/atendimentosValor"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="0.7" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/atendimentosConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/salvar"
+        android:layout_weight="0.1"/>
+</LinearLayout>

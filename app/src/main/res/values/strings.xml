@@ -34,4 +34,10 @@
     <string name="title_activity_atendimentos">Atendimentos</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Atendimentos Strings -->
+    <string name="salvar">Finalizar</string>
+    <string name="valor">Valor: </string>
+    <string name="cliente">Escolha um cliente</string>
+    <string name="servco">Escolha um serviço</string>
+
 </resources>

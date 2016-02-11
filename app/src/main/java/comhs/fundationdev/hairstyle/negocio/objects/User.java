@@ -36,9 +36,9 @@ public class User extends Entidade{
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", pswd='" + pswd + '\'' +
+                "id=" + this.id +
+                ", nome='" + this.nome + '\'' +
+                ", pswd='" + this.pswd + '\'' +
                 '}';
     }
 }

@@ -27,15 +27,11 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import comhs.fundationdev.hairstyle.R;
-import comhs.fundationdev.hairstyle.database.queries.UserModel;
-import comhs.fundationdev.hairstyle.exeption.GenercicException;
-import comhs.fundationdev.hairstyle.negocio.objects.User;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -97,37 +93,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
-
-        UserModel model = new UserModel(getApplicationContext());
-        User usr = new User();
-        usr.setId(5);
-        usr.setNome("Lucas");
-        usr.setPswd("1234");
-
-        try {
-            model.inserir(usr);
-        } catch (GenercicException e) {
-            Toast.makeText(getApplication(), e.getMessage() + " -- 1", Toast.LENGTH_LONG).show();
-            System.out.println(e.getMessage());
-        }
-
-        usr.setId(10);
-        usr.setNome("Lucas");
-        usr.setPswd("1234");
-
-        try {
-            model.inserir(usr);
-        } catch (GenercicException e) {
-            Toast.makeText(getApplication(), e.getMessage() + " -- 1", Toast.LENGTH_LONG).show();
-            System.out.println(e.getMessage());
-        }
-
-        try {
-            model.inserir("");
-        } catch (GenercicException e) {
-            Toast.makeText(getApplication(), e.getMessage() + " -- 2", Toast.LENGTH_LONG).show();
-            System.out.println(e.getMessage());
-        }
     }
 
     private void populateAutoComplete() {
