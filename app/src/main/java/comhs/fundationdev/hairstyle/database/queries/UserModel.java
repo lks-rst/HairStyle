@@ -2,107 +2,74 @@ package comhs.fundationdev.hairstyle.database.queries;
 
 import android.content.Context;
 
-import java.util.ArrayList;
+import org.json.JSONObject;
+
 import java.util.List;
 
 import comhs.fundationdev.hairstyle.R;
-import comhs.fundationdev.hairstyle.database.repository.persistence.PersistencySingleton;
-import comhs.fundationdev.hairstyle.database.repository.persistence.UserPersistency;
-import comhs.fundationdev.hairstyle.exeption.DataExeption;
 import comhs.fundationdev.hairstyle.exeption.GenercicException;
-import comhs.fundationdev.hairstyle.exeption.InsertionExeption;
-import comhs.fundationdev.hairstyle.exeption.InvalidTypeExeption;
-import comhs.fundationdev.hairstyle.exeption.NotImplementedException;
-import comhs.fundationdev.hairstyle.exeption.ReadExeption;
 import comhs.fundationdev.hairstyle.exeption.UnsuportedOperationExeption;
 import comhs.fundationdev.hairstyle.negocio.objects.User;
+import comhs.fundationdev.hairstyle.util.ServerConect;
 
 /**
+ * This must be the only way to get data from the dataBase no matter how to connect to it
+ * for sqlite, or webservice or direct connection
+ *
  * Created by lucas on 04/02/16.
  */
 public class UserModel extends Model{
-    private  UserPersistency percistency;
+//    private  UserPersistency percistency;
+    private ServerConect conection;
 
     public UserModel(Context context)
     {
         super.contexto = context;
-        this.percistency = new UserPersistency(PersistencySingleton.getDataBase(context), context);
+        this.conection = new ServerConect(this.contexto,
+                (this.contexto.getString(R.string.url_user)));
+//        this.percistency = new UserPersistency(PersistencySingleton.getDataBase(context), context);
     }
 
     @Override
     public void inserir(Object object) throws GenercicException {
-        try {
-            percistency.inserir((User)object);
-        } catch (Exception e) {
-            throw new InsertionExeption(contexto.getResources().getString(R.string.insertion_exeption) + "\n" + e.getMessage());
-        }
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
     public void inserir(String strObject) throws GenercicException {
-        try {
-            inserir(StringToObject(strObject));
-        } catch (NotImplementedException e) {
-            throw e;
-        } catch (InvalidTypeExeption e) {
-            throw e;
-        } catch (GenercicException e) {
-            throw e;
-        } catch (Exception e) {
-            throw new NotImplementedException(contexto.getResources().getString(R.string.notImplemented_exeption));
-        }
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
     public List buscarTodos() throws GenercicException {
-        return null;
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
     public List BuscarItensData(String dataInicail, String dataFinal) throws GenercicException {
-        return null;
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
     public List buscarTodos(String descricao) throws GenercicException {
-        List<User> lista = new ArrayList<User>();
-
-        lista = percistency.buscarTodos();
-
-        if (lista.size() <= 0 )
-            throw new ReadExeption(contexto.getResources().getString(R.string.read_exeption));
-        else
-            return lista;
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
     public List<String> BuscarString() throws GenercicException {
-        List<User> lista = new ArrayList<User>();
-
-        lista = percistency.buscarTodos();
-
-        if (lista.size() <= 0 )
-            throw new ReadExeption(contexto.getResources().getString(R.string.read_exeption));
-        else
-        {
-            List<String> itens = new ArrayList<String>();
-            for (User u: lista)
-            {
-                itens.add(u.toString());
-            }
-            return itens;
-        }
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
     public Object BuscarItem(int id) throws GenercicException {
-        try
-        {
-            return this.percistency.BuscarItem(id);
-        } catch (Exception e)
-        {
-            throw new DataExeption(contexto.getResources().getString(R.string.database_exception));
-        }
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
@@ -132,5 +99,56 @@ public class UserModel extends Model{
     @Override
     protected Object StringToObject(String objectString) throws GenercicException {
         return null;
+    }
+
+
+    /**
+     * This method get the user id en try to select the user in the server if are mor then one user
+     * with the same id an exeption is throw otherwise it compares the password passe with the one
+     * returne from the server in the case it matches returns true otherwise returns false.
+     *
+     * @param user user cod to retriev
+     * @param pswrd user password to compare at the database
+     * @return
+     * @throws GenercicException
+     */
+    public User getUser(int user, String pswrd) throws GenercicException
+    {
+        User usuario;
+        try
+        {
+            JSONObject jsonObject = conection.readUser(user);
+            usuario = new User();
+            usuario = (User) usuario.toEntidade(jsonObject);
+        } catch (Exception e)
+        {
+            usuario = null;
+        }
+        return usuario;
+    }
+
+    /**
+     * This method get the user id en try to select the user in the server if are mor then one user
+     * with the same id an exeption is throw otherwise it compares the password passe with the one
+     * returne from the server in the case it matches returns true otherwise returns false.
+     *
+     * @param user user cod to retriev
+     * @param pswrd user password to compare at the database
+     * @return
+     * @throws GenercicException
+     */
+    public User getUser(String user, String pswrd) throws GenercicException
+    {
+        User usuario;
+        try
+        {
+            JSONObject jsonObject = conection.readUser(user);
+            usuario = new User();
+            usuario = (User) usuario.toEntidade(jsonObject);
+        } catch (Exception e)
+        {
+            usuario = null;
+        }
+        return usuario;
     }
 }

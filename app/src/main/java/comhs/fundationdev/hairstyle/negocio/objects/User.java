@@ -1,5 +1,7 @@
 package comhs.fundationdev.hairstyle.negocio.objects;
 
+import org.json.JSONObject;
+
 /**
  * Created by lucas on 04/02/16.
  */
@@ -40,5 +42,20 @@ public class User extends Entidade{
                 ", nome='" + this.nome + '\'' +
                 ", pswd='" + this.pswd + '\'' +
                 '}';
+    }
+
+    @Override
+    public Entidade toEntidade(JSONObject object) {
+        try {
+            this.setPswd(object.getString("pswd"));
+            this.setNome(object.getString("nome"));
+            this.setId(Integer.parseInt(object.getString("id")));
+            return this;
+        } catch (Exception e){return null;}
+    }
+
+    @Override
+    public JSONObject toJsonObject(Entidade object) {
+        return null;
     }
 }

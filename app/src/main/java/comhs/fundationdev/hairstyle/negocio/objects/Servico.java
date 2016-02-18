@@ -1,5 +1,7 @@
 package comhs.fundationdev.hairstyle.negocio.objects;
 
+import org.json.JSONObject;
+
 /**
  * Created by lucas on 09/02/16.
  */
@@ -59,5 +61,15 @@ public class Servico extends Entidade{
                 ", valorMaximo=" + this.valorMaximo +
                 ", valorCobrado=" + this.valorCobrado +
                 '}';
+    }
+
+    @Override
+    public Entidade toEntidade(JSONObject object) {
+        return null;
+    }
+
+    @Override
+    public JSONObject toJsonObject(Entidade object) {
+        return null;
     }
 }
