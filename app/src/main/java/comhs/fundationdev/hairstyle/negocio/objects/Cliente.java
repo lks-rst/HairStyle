@@ -34,8 +34,14 @@ public class Cliente extends Entidade{
     }
 
     @Override
-    public Entidade toEntidade(JSONObject object) {
-        return null;
+    public Entidade toEntidade(JSONObject object)
+    {
+        try {
+            this.setNome(object.getString("nome"));
+            this.setCodigo(object.getInt("id"));
+            return this;
+        }
+        catch (Exception e){return null;}
     }
 
     @Override

@@ -1,68 +1,111 @@
 package comhs.fundationdev.hairstyle.database.repository.persistence;
 
 import android.content.Context;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 
 import java.util.List;
 
-import comhs.fundationdev.hairstyle.exeption.DeleteExeption;
+import comhs.fundationdev.hairstyle.R;
 import comhs.fundationdev.hairstyle.exeption.GenercicException;
-import comhs.fundationdev.hairstyle.exeption.InsertionExeption;
 import comhs.fundationdev.hairstyle.exeption.NotImplementedException;
-import comhs.fundationdev.hairstyle.exeption.ReadExeption;
-import comhs.fundationdev.hairstyle.exeption.UpdateExeption;
 import comhs.fundationdev.hairstyle.negocio.objects.Cliente;
+import comhs.fundationdev.hairstyle.util.ServerConect;
 
 /**
  * Created by lucas on 11/02/16.
  */
 public class ClientPersistency implements Persistencia<Cliente> {
-    private SQLiteDatabase db;
     private Context ctx;
-    private String sql;
     private StringBuilder sBuilder;
-    private Cursor c;
+    private ServerConect conection;
 
-    public ClientPersistency(SQLiteDatabase db, Context context)
+    public ClientPersistency(Context context)
     {
-        this.db = db;
         this.ctx = context;
         this.sBuilder = new StringBuilder();
+        this.conection = new ServerConect(context, (context.getString(R.string.url_user)));
     }
 
     @Override
-    public void inserir(Cliente object) throws NotImplementedException, InsertionExeption, GenercicException {
-
+    public void inserir(Cliente object) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
     @Override
-    public List<Cliente> buscarTodos() throws NotImplementedException, ReadExeption, GenercicException {
-        return null;
+    public void inserir(String strObject) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
     @Override
-    public List<Cliente> BuscarItensData(String dataInicail, String dataFinal) throws NotImplementedException, ReadExeption, GenercicException {
-        return null;
+    public List<Cliente> buscarTodos() throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
     @Override
-    public List<Cliente> buscarTodos(String descricao) throws NotImplementedException, ReadExeption, GenercicException {
-        return null;
+    public List<Cliente> buscarItensData(String dataInicail, String dataFinal) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
     @Override
-    public Cliente BuscarItem(int id) throws NotImplementedException, ReadExeption, GenercicException {
-        return null;
+    public List<Cliente> buscarTodos(String descricao) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
     @Override
-    public Boolean alterarItem(Cliente item) throws NotImplementedException, UpdateExeption, GenercicException {
-        return null;
+    public List<String> buscarString() throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
     @Override
-    public void ExcluirItem(long id) throws NotImplementedException, DeleteExeption, GenercicException {
+    public Cliente buscarItem(String referencia) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
 
+    @Override
+    public Cliente buscarItem(int referencia, String secondCollun) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
+
+    @Override
+    public Cliente buscarItem(String referencia, String secondCollun) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
+
+    @Override
+    public List<Cliente> buscarItens(String referencia, String secondCollun) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
+
+    @Override
+    public Boolean alterarItem(Cliente item) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
+
+    @Override
+    public Boolean alterarItem(Long id, Cliente item) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
+
+    @Override
+    public void excluirItem(Cliente item) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+    }
+
+    @Override
+    public void excluirItem(int id) throws GenercicException {
+        throw new NotImplementedException(
+                this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 }

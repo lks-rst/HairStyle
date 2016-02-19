@@ -18,22 +18,52 @@ public abstract class Model<T> {
 	
 	public abstract List<T> buscarTodos() throws GenercicException;
 
-	public abstract List<T> BuscarItensData(String dataInicail, String dataFinal) throws GenercicException;
+	public abstract List<T> buscarItensData(String dataInicail, String dataFinal) throws GenercicException;
 	
 	public abstract List<T> buscarTodos(String descricao) throws GenercicException;
 	
-	public abstract List<String> BuscarString() throws GenercicException;
+	public abstract List<String> buscarString() throws GenercicException;
 
-	public abstract T BuscarItem(int id) throws GenercicException;
+	public abstract T buscarItem(int referencia) throws GenercicException;
+
+	public abstract T buscarItem(String referencia) throws GenercicException;
+
+	public abstract T buscarItem(int referencia, String secondCollun) throws GenercicException;
+
+	public abstract T buscarItem(String referencia, String secondCollun) throws GenercicException;
+
+	/**
+	 * This method get the user id en try to select the user in the server if are mor then one user
+	 * with the same id an exeption is throw otherwise it compares the password passe with the one
+	 * returne from the server in the case it matches returns true otherwise returns false.
+	 *
+	 * @param referencia user cod to retriev
+	 * @param secondCollun user password to compare at the database
+	 * @return
+	 * @throws GenercicException
+	 */
+	public abstract List<T> buscarItens(int referencia, String secondCollun) throws GenercicException;
+
+	/**
+	 * This method get the user id en try to select the user in the server if are mor then one user
+	 * with the same id an exeption is throw otherwise it compares the password passe with the one
+	 * returne from the server in the case it matches returns true otherwise returns false.
+	 *
+	 * @param referencia user cod to retriev
+	 * @param secondCollun user password to compare at the database
+	 * @return
+	 * @throws GenercicException
+	 */
+	public abstract List<T> buscarItens(String referencia, String secondCollun) throws GenercicException;
 	
 	public abstract Boolean alterarItem(T item) throws GenercicException;
 	
 	public abstract Boolean alterarItem(Long id, T item) throws GenercicException;
 	
-	public abstract void ExcluirItem(T item) throws GenercicException;
+	public abstract void excluirItem(T item) throws GenercicException;
 	
-	public abstract void ExcluirItem(int id) throws GenercicException;
+	public abstract void excluirItem(int id) throws GenercicException;
 	
-	protected abstract T StringToObject(String objectString) throws GenercicException;
+	protected abstract T stringToObject(String objectString) throws GenercicException;
 
 }

@@ -10,7 +10,6 @@ public class Servico extends Entidade{
     private String descricao;
     private float valorMinimo;
     private float valorMaximo;
-    private float valorCobrado;
 
     public int getCodigo() {
         return codigo;
@@ -44,14 +43,6 @@ public class Servico extends Entidade{
         this.valorMaximo = valorMaximo;
     }
 
-    public float getValorCobrado() {
-        return valorCobrado;
-    }
-
-    public void setValorCobrado(float valorCobrado) {
-        this.valorCobrado = valorCobrado;
-    }
-
     @Override
     public String toString() {
         return "Servico{" +
@@ -59,13 +50,20 @@ public class Servico extends Entidade{
                 ", descricao='" + this.descricao + '\'' +
                 ", valorMinimo=" + this.valorMinimo +
                 ", valorMaximo=" + this.valorMaximo +
-                ", valorCobrado=" + this.valorCobrado +
                 '}';
     }
 
     @Override
-    public Entidade toEntidade(JSONObject object) {
-        return null;
+    public Entidade toEntidade(JSONObject object)
+    {
+        try {
+            this.setValorMaximo((float) object.getDouble("valorMinimo"));
+            this.setValorMinimo((float) object.getDouble("valorMaximo"));
+            this.setDescricao(object.getString("descricao"));
+            this.setCodigo(object.getInt("id"));
+            return this;
+        }
+        catch (Exception e){return null;}
     }
 
     @Override

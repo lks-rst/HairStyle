@@ -2,6 +2,7 @@ package comhs.fundationdev.hairstyle.negocio.objects;
 
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,10 +12,19 @@ public class Atendimento extends Entidade{
     private Cliente cliente;
     private User atendente;
     private List<Servico> servicos;
+    private int id;
     private String dataInicio;
     private String horaInicio;
     private String dataFim;
     private String horaFim;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Cliente getCliente() {
         return cliente;
@@ -86,12 +96,22 @@ public class Atendimento extends Entidade{
     }
 
     @Override
-    public Entidade toEntidade(JSONObject object) {
-        return null;
+    public Entidade toEntidade(JSONObject object)
+    {
+        try {
+            this.setCliente(new Cliente());
+            this.setAtendente(new User());
+            this.setServicos(new ArrayList<Servico>());
+            this.setDataInicio(object.getString("dataInicio"));
+            this.setHoraInicio(object.getString("dataInicio"));
+            this.setDataFim(object.getString("dataFim"));
+            this.setHoraFim(object.getString("horaFim"));
+            this.setId(object.getInt("id"));
+            return this;
+        }
+        catch (Exception e){return null;}
     }
 
     @Override
-    public JSONObject toJsonObject(Entidade object) {
-        return null;
-    }
+    public JSONObject toJsonObject(Entidade object) { return null; }
 }

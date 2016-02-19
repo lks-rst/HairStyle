@@ -2,15 +2,12 @@ package comhs.fundationdev.hairstyle.database.queries;
 
 import android.content.Context;
 
-import org.json.JSONObject;
-
 import java.util.List;
 
 import comhs.fundationdev.hairstyle.R;
+import comhs.fundationdev.hairstyle.database.repository.persistence.UserPersistency;
 import comhs.fundationdev.hairstyle.exeption.GenercicException;
 import comhs.fundationdev.hairstyle.exeption.UnsuportedOperationExeption;
-import comhs.fundationdev.hairstyle.negocio.objects.User;
-import comhs.fundationdev.hairstyle.util.ServerConect;
 
 /**
  * This must be the only way to get data from the dataBase no matter how to connect to it
@@ -19,15 +16,12 @@ import comhs.fundationdev.hairstyle.util.ServerConect;
  * Created by lucas on 04/02/16.
  */
 public class UserModel extends Model{
-//    private  UserPersistency percistency;
-    private ServerConect conection;
+    private UserPersistency percistency;
 
     public UserModel(Context context)
     {
         super.contexto = context;
-        this.conection = new ServerConect(this.contexto,
-                (this.contexto.getString(R.string.url_user)));
-//        this.percistency = new UserPersistency(PersistencySingleton.getDataBase(context), context);
+        this.percistency = new UserPersistency(context);
     }
 
     @Override
@@ -49,7 +43,7 @@ public class UserModel extends Model{
     }
 
     @Override
-    public List BuscarItensData(String dataInicail, String dataFinal) throws GenercicException {
+    public List buscarItensData(String dataInicail, String dataFinal) throws GenercicException {
         throw new UnsuportedOperationExeption(
                 contexto.getResources().getString(R.string.usuported_exception));
     }
@@ -61,15 +55,19 @@ public class UserModel extends Model{
     }
 
     @Override
-    public List<String> BuscarString() throws GenercicException {
+    public List<String> buscarString() throws GenercicException {
         throw new UnsuportedOperationExeption(
                 contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
-    public Object BuscarItem(int id) throws GenercicException {
-        throw new UnsuportedOperationExeption(
-                contexto.getResources().getString(R.string.usuported_exception));
+    public Object buscarItem(int id) throws GenercicException {
+        return this.buscarItem(String.valueOf(id));
+    }
+
+    @Override
+    public Object buscarItem(String referencia) throws GenercicException {
+        return this.percistency.buscarItem(referencia);
     }
 
     @Override
@@ -85,70 +83,44 @@ public class UserModel extends Model{
     }
 
     @Override
-    public void ExcluirItem(Object item) throws GenercicException {
+    public void excluirItem(Object item) throws GenercicException {
         throw new UnsuportedOperationExeption(
                 contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
-    public void ExcluirItem(int id) throws GenercicException {
+    public void excluirItem(int id) throws GenercicException {
         throw new UnsuportedOperationExeption(
                 contexto.getResources().getString(R.string.usuported_exception));
     }
 
     @Override
-    protected Object StringToObject(String objectString) throws GenercicException {
-        return null;
+    protected Object stringToObject(String objectString) throws GenercicException {
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 
-
-    /**
-     * This method get the user id en try to select the user in the server if are mor then one user
-     * with the same id an exeption is throw otherwise it compares the password passe with the one
-     * returne from the server in the case it matches returns true otherwise returns false.
-     *
-     * @param user user cod to retriev
-     * @param pswrd user password to compare at the database
-     * @return
-     * @throws GenercicException
-     */
-    public User getUser(int user, String pswrd) throws GenercicException
+    @Override
+    public Object buscarItem(int user, String pswrd) throws GenercicException
     {
-        User usuario;
-        try
-        {
-            JSONObject jsonObject = conection.readUser(user);
-            usuario = new User();
-            usuario = (User) usuario.toEntidade(jsonObject);
-        } catch (Exception e)
-        {
-            usuario = null;
-        }
-        return usuario;
+        return this.buscarItem(String.valueOf(user), pswrd);
     }
 
-    /**
-     * This method get the user id en try to select the user in the server if are mor then one user
-     * with the same id an exeption is throw otherwise it compares the password passe with the one
-     * returne from the server in the case it matches returns true otherwise returns false.
-     *
-     * @param user user cod to retriev
-     * @param pswrd user password to compare at the database
-     * @return
-     * @throws GenercicException
-     */
-    public User getUser(String user, String pswrd) throws GenercicException
+    @Override
+    public Object buscarItem(String user, String pswrd) throws GenercicException
     {
-        User usuario;
-        try
-        {
-            JSONObject jsonObject = conection.readUser(user);
-            usuario = new User();
-            usuario = (User) usuario.toEntidade(jsonObject);
-        } catch (Exception e)
-        {
-            usuario = null;
-        }
-        return usuario;
+        return this.percistency.buscarItem(user, pswrd);
+    }
+
+    @Override
+    public List buscarItens(int referencia, String secondCollun) throws GenercicException {
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
+    }
+
+    @Override
+    public List buscarItens(String referencia, String secondCollun) throws GenercicException {
+        throw new UnsuportedOperationExeption(
+                contexto.getResources().getString(R.string.usuported_exception));
     }
 }

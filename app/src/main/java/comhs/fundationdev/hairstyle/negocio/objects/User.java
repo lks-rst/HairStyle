@@ -49,9 +49,10 @@ public class User extends Entidade{
         try {
             this.setPswd(object.getString("pswd"));
             this.setNome(object.getString("nome"));
-            this.setId(Integer.parseInt(object.getString("id")));
+            this.setId(object.getInt("id"));
             return this;
-        } catch (Exception e){return null;}
+        }
+        catch (Exception e){return null;}
     }
 
     @Override
