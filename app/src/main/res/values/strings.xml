@@ -1,50 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HairStyle</string>
-
-    <!-- Strings related to login -->
-    <string name="prompt_email">User</string>
-    <string name="prompt_password">Password</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">"%1$s won't run unless you update the Android Wear app."</string>
+    <string name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"%1$s won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"%1$s won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="action_settings">Settings</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_user">This user are not configured</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-
-    <!-- Exceptions Strings -->
-    <string name="delete_exeption">Ocorreu um erro durante a exclusão dos dados.</string>
-    <string name="generic_exeption">Ocorreu um erro desconhecido.</string>
-    <string name="insertion_exeption">Ocorreu um erro durante a inserção dos dados.</string>
-    <string name="invalidType_exeption">A string não corresponde ao tipo: </string>
-    <string name="notImplemented_exeption">
-        A funcionalidade pode não ter sido implementada ainda.
-    </string>
-    <string name="read_exeption">
-        Não foi possível conectar a base de dados ou não existem registros compatíveis com sua
-        pesquisa.
-    </string>
-    <string name="update_exeption">Ocorreu um erro ao alterar o registro - </string>
-    <string name="database_exception">Ocorreu um erro durante o acesso ao banco de dados.</string>
-    <string name="usuported_exception">
-        Essa operação não é permitida para esse tipo de dado.
-    </string>
-    <string name="title_activity_atendimentos">Atendimentos</string>
-    <string name="action_settings">Settings</string>
-
-    <!-- Atendimentos Strings -->
-    <string name="salvar">Finalizar</string>
-    <string name="valor">Valor: </string>
+    <string name="app_name">HairStyle</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="cliente">Escolha um cliente</string>
+    <string name="clients_prompt">Escolha um cliente</string>
+    <string name="database_exception">Ocorreu um erro durante o acesso ao banco de dados.</string>
+    <string name="delete_exeption">Ocorreu um erro durante a exclusão dos dados.</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_user">This user are not configured</string>
+    <string name="generic_exeption">Ocorreu um erro desconhecido.</string>
+    <string name="incerir">Inserir</string>
+    <string name="insertion_exeption">Ocorreu um erro durante a inserção dos dados.</string>
+    <string name="invalidType_exeption">A string não corresponde ao tipo:</string>
+    <string name="notImplemented_exeption">A funcionalidade pode não ter sido implementada ainda.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="preference_base">DB</string>
+    <string name="preference_base_default">coiffeur</string>
+    <string name="preference_file">com.hs.fundationdev.hairstyle.preferenceFile</string>
+    <string name="preference_pswd">PSWD</string>
+    <string name="preference_pswd_default">MiriaN1208</string>
+    <string name="preference_server">IP</string>
+    <string name="preference_server_default">192.168.1.53</string>
+    <string name="preference_user">USER</string>
+    <string name="preference_user_default">root</string>
+    <string name="prompt_email">User</string>
+    <string name="prompt_password">Password</string>
+    <string name="read_exeption">Não foi possível conectar a base de dados ou não existem registros compatíveis com sua pesquisa.</string>
+    <string name="salvar">Gravar</string>
     <string name="servco">Escolha um serviço</string>
-
-    <!-- Atendimentos urls -->
-    <string name="url_base">http://fundationdev.com/lks/hairStyle/novoBanco.php</string>
-    <string name="url_user">http://fundationdev.com/lks/hairStyle/users.php</string>
-    <string name="url_client">http://fundationdev.com/lks/hairStyle/clients.php</string>
-    <string name="url_service">http://fundationdev.com/lks/hairStyle/services.php</string>
-    <string name="url_attendance">http://fundationdev.com/lks/hairStyle/attendances.php</string>
-
+    <string name="services_prompt">Escolha um serviço</string>
+    <string name="title_activity_atendimentos">Atendimentos</string>
+    <string name="title_activity_settings">Configuração</string>
+    <string name="update_exeption">Ocorreu um erro ao alterar o registro -</string>
+    <string name="url_attendance">http://fundationdev.com/lks/hairStyle/server/attendances.php</string>
+    <string name="url_attendance_single_service">http://fundationdev.com/lks/hairStyle/server/insertAttendances.php</string>
+    <string name="url_base">http://fundationdev.com/lks/hairStyle/</string>
+    <string name="url_client">http://fundationdev.com/lks/hairStyle/server/clients.php</string>
+    <string name="url_service">http://fundationdev.com/lks/hairStyle/server/services.php</string>
+    <string name="url_user">http://fundationdev.com/lks/hairStyle/server/users.php</string>
+    <string name="url_user_no_login">http://fundationdev.com/lks/hairStyle/server/user.php</string>
+    <string name="users_prompt">Escolha um usuario</string>
+    <string name="usuported_exception">Essa operação não é permitida para esse tipo de dado.</string>
+    <string name="valor">Valor:</string>
 </resources>
