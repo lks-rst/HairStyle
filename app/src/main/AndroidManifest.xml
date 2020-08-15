@@ -8,6 +8,44 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="comhs.fundationdev.hairstyle.view.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="comhs.fundationdev.hairstyle.view.Atendimentos"
+            android:label="@string/title_activity_atendimentos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="comhs.fundationdev.hairstyle.view.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+
+    <!--
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -32,5 +70,6 @@
             android:label="@string/title_activity_atendimentos"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
+    -->
 
 </manifest>

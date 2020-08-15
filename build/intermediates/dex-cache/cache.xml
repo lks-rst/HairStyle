@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\palette-v7\26.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="b614956bf77eb8201754ac10109e52c36691cb3f">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-26.1.0_c7ab074eff1f0d18b934925c57f4e373709416c6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="e3a3c8dc3e6db5655f5affc2ceb7f630f75450c0">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-12.0.1_1a3885e239b2999a23515a7e392884063b7cdbd5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="54c67f87c9eb60be5eca37aa7d1a85f7651c4bc1">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-12.0.1_af5ccc5eba5bfa7933f45be18da9a3708a50150a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="b49a35edc3c04e5394bb287a7281d097a12968a7">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-12.0.1_7c361a2179c829e8e229ef09a719efb03a577a82\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.0_e9c947217957ea6f146d08de51f27cf8e7175688\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="d03ab1939f3b9e97bbcbc2f2fa0ff14c77a6b0ac">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-12.0.1_c645d6adf01a80ee034b8b6d9b1e54de83861d19\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-27.1.1_07e6797982b18756584dc1f6e424aaa41b9d6127\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\android.arch.lifecycle-runtime-1.1.0_afa93ebc310b8cc95c3d8ca2eaa2a3121363b16f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision-common\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="1fddd828aa2365a453562d62b07da4a2d94a24ad">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-common-12.0.1_011629b310788c75b11a301c528ec86a91c0eb73\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="16f423bae182fd81553d109269f7a5e13fd1cb52">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-12.0.1_5ece0d41e697aedd14f6f0e38e58c40a543205a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="401f6f004df936f5090d176d40928b4e7c110a49">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-12.0.1_03c67adaaac84e85c3f9edb6f5c725d1eea387bb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="2e486eee01646dae4dd0e63e1318a986496311eb">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-12.0.1_db75f9802d67a972f7db8009805ab14f2765fff3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="867dd4ee2677d4263337745473eb46e2e7e890e5">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-12.0.1_b114d1ef3f21b967c26fae7709d2b58b2b0e70b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="ae7f19b2051f18df4d86ab3ffad2e4e4d15838c3">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-12.0.1_fff43d8b80fde394f03e7528b97af198cba6bf7b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.0_84d4ffab8d635da5327ed3525b842d73dd83cfb8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="b739661c7142579d33f42801cfb71882cd217727">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-12.0.1_21b0c98a119b3d0bdd324f6d9e511c779071134f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="48782a67d19439b9d65699a389b96dd335cefa36">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-12.0.1_a3200edcbdb7695d04370fb3ad6531a35dfdc67b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="912098f1836f71ca32622260bb888d5aff5c05e4">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-12.0.1_0c6b6f276297c5e732b8282b357523d7d5890454\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="f6e1653c30909598077670f5f144d5c04b916bc9">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-12.0.1_78e8b9b5bb710d948a16eac25822e548d6eecf72\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fido\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="6a6d51b8249cdc1bbf7908b7aae60612ff7eba2c">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fido-12.0.1_989be269dce26bc0974c1d527e25415b072fdcac\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-27.1.1_f01f5b6ad879dbf541bca8d60d3525aef547550f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-27.1.1_cb0ae8d7520991c6a3dca00b8c17f55566569e74\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="cbd757155b8f35f02926a7ed26115a3c78df583d">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-12.0.1_9073bb10e23c26c93aee0ecc9a7b9ca3c368b882\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\android.arch.lifecycle-viewmodel-1.1.0_017f4ac800bd3774c1f56f99c97dd0b73123956c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-api-phone\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="63762d99e25ebfd92f60558dcef8aef334cc6dd3">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-api-phone-12.0.1_76d01d8a7677915e97df9ed2f5cc85df3af5e651\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="624900c22a204457b8464adfed30bd20a5b390e8">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9fb829d5f2d0ebec564fb9b6d47ffac2ba9ac45e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="5388b3a068be4420a7a13fde1cfbf034110415e8">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-12.0.1_1a430ad580bd5b94e588e61c4d69dab1942d4835\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\com.google.code.ksoap2-android\ksoap2-base\3.4.0\cffc2d333deacfae35a8639c96013f34d6a94665\ksoap2-base-3.4.0.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="cffc2d333deacfae35a8639c96013f34d6a94665">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\ksoap2-base-3.4.0_4c2750cb89f0d701c1b410fd97ea86173476dfd2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-27.1.1_33d8b5bf61bda6611ae16f53522520164320c1a0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_87f960a08bae69ed7eb84616eed15c545b9fd43d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="71079fde2d8a466aa77ddd0825892f445c983a98">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-12.0.1_7682678ada74b92ae796d5d57ffcd4561d23db16\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="6f0fa9b3cef6fc28497a51d125037edb4922cef0">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-12.0.1_97316f382caae91138bbd70158f133a78e65591b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="22569eca3029ab00583c332a2be220cdbf091b35">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-12.0.1_67821a6087a85b56fd7a3437455f979cc69a3d17\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-27.1.1_b708b38ca4606ebfba714c50d5f4f9a7c57bbf9b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\transition\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-27.1.1_6827367ac8451b92b0d036fe0f2449daa769e2f4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-27.1.1_b2a8185528edfd9fd0e2f093569a010c2fa0cf30\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_22fd5425c91165660ff32b2ce69f8c9e85ccc162\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations-java5\15.0\7011b4551a8451906759b05814c58b9eb829ea9b\annotations-java5-15.0.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="7011b4551a8451906759b05814c58b9eb829ea9b">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-java5-15.0_756e3634ee7cbd9a826f6be4d693c178c2ac5b0c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="86877c708443b19ab64c91727bc9ab02c812a15c">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-12.0.1_d58945dc653e11e05eba11444e895735fcd37795\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="1de13aa2352b6b9c32ad14c5bbb2ea772d2c6b3c">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-12.0.1_6cee7d2fd5d2d8eda22b402f74f07b8a0f6945c7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="1b4f94fecd526ee8ab425e20cfe17695549beb01">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-12.0.1_26e3b4a75c18e90fc3ef2469145a8bd1670ffa96\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="c05b622abb1e290bb30625a3f1a41e72ed9e4d2e">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-12.0.1_686e368532f1f48bca514f4813f514189b074836\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="e8a71b32591318007ac809940bbcd57f2de5516e">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-12.0.1_c220fdb8d1b117ffb444febd5854e704654aeb2a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="79272e6855744c8c7b262796e63b16f85c9391ee">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-12.0.1_b287c7aaabafa0702ddd3a72b331b9e89bb0b299\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="5824717818f7ac8bd17b200b1b182c0313740c60">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-12.0.1_a73652e1e2b451f8734d6b3bfb96b8935c1267c1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\26.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="71d9511059af6ec9b85408f8f0e16ec0f439185e">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-26.1.0_241a1e4433c840591b21c6f7f61b2fe24c13813d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="e1086213a85bf2bfc3f6448d66581198ba380f69">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-12.0.1_7ef18c3defeb96e6241a9a73c9759cb45401c81e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="86d6aa538262141c7dcbc416da1aefad99accbe0">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-12.0.1_c443606e9e5c05c13de87a4691c416dc45991c82\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="df641c4628b6ce1f79624504a0aa8f07180cab0c">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-12.0.1_4f46f67f249622f5e69fa87f9e4a9e08171d3e38\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\net.sourceforge.kxml\kxml\2.2.4\1642506e490548d96984b8370e44257c156097f7\kxml-2.2.4.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="1642506e490548d96984b8370e44257c156097f7">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\kxml-2.2.4_98ae50e28bea5e4623ddbef2bb0200d062172c76\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-27.1.1_c4d1761bab403bf25a8e018e2344c1816fafcc21\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.3.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="6e57fe155cea810fb2ba5fe9ffabcb197ecf81d1">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.drakeet.materialdialog-library-1.3.1_2048964a168a70b122d5de8f0c0211a398ae63b8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="4c9dde3866f60967d73035b3445bb0f703429612">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-12.0.1_83fd1f72ad15188081bababef9bfe162c1aa6994\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="071364c6fcb3772aef9209b9db621c61a0686197">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-12.0.1_913a36def8bcab053d55c00a95ca83aa6c8a5fae\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-27.1.1_983d5979ca6dd6916b25724d582b04b121ecae2f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.10.2_897b53999ddc742c3325e2e7aec69368c111942a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="fc421b0511f4e492d097c84702b2a00f101fe08a">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-12.0.1_6e39d6a2fdba609b48dae4ae8705922fb1e6c2dd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="17416595f24a1bdf3137c973445003d95aeb2525">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-12.0.1_00b90c70c424d4bfc020a3d91c95ba7b27bac9d1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="031cce39c6f4028380fa55bf57e96444093630c7">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-12.0.1_972d5abc82c02e7994025da3941ce62909ce2e61\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\com.google.code.ksoap2-android\ksoap2-j2se\3.4.0\db647f6bb3d6f839ed8a424f8186052bee302428\ksoap2-j2se-3.4.0.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="db647f6bb3d6f839ed8a424f8186052bee302428">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\ksoap2-j2se-3.4.0_acd40d189bd5e4032f67f50d753e8ad1bbced747\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="66c2e87b6c3fc49891d1d0c05474a159390b0373">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-12.0.1_96f905a81b26051a617e7f3cd5f0a97dcab58197\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\android.arch.core-runtime-1.1.0_632fe3b3c42d5d2bd4a136a66bf56d668d455cbc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\org.xmlpull\xmlpull\1.1.3.3\9b62254da05ce6399a09164362da7b2419de63ca\xmlpull-1.1.3.3.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="9b62254da05ce6399a09164362da7b2419de63ca">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\xmlpull-1.1.3.3_b293ef28c4084d48bfb10ffcdf5ce3b07397850c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="410ecd974ba7008f743e611ea7fe749321517231">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-12.0.1_016b3dcdbc822c997ac8b30a98b1c195356e90bb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="ed8395f343c428cd55c60499f04323083f4ef0db">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-12.0.1_c21edefd459aa307c1c4caaf62d87bcc949a1407\classes.dex" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-dynamic-links\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="765aed69cc8a835aa9bdd13f45b8dc903b75bce6">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-dynamic-links-12.0.1_60f038797f27c023d34914a9c2ea1f638a1a47ad\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\.gradle\caches\modules-2\files-2.1\net.sourceforge.kobjects\kobjects-j2me\0.0-SNAPSHOT-20040926-2\9246ca92b16c65114a7fb80b906801e06be95305\kobjects-j2me-0.0-SNAPSHOT-20040926-2.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="9246ca92b16c65114a7fb80b906801e06be95305">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\kobjects-j2me-0.0-SNAPSHOT-20040926-2_1b8ba3c7b3deae67af35935630ffba4050f9812a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="d0fa5c01bf02012d059c1c84a7458715f88876e8">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-12.0.1_9566daab61e275ba46055b2fd8ef786a9b52baa7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="43777ad2c3f87b64ced35a875ce2befa178a23da">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-12.0.1_15e5e2d72d2dcc474112307b3c4510ea54353ade\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\design\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-27.1.1_30d6e7a49436ac3b30bbad089d5dd9510e2136de\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="b01381b98fecbc99b2b6856c2cef4594ce4b37e8">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-12.0.1_e1803de6f97a3277eed64ef7d42d2ec3e0bb6672\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="cc95ad466da44800955b79689023485ea39924a3">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-12.0.1_ecc91cb8443b4cec89430ece99ff4b64afd59251\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="537f9ecd543f551baa930639eb4c18eae57b13b4">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f242cab79ca7a2517d030d87a48733d333b953af\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="ba42e6949397668e88ea3d2b188078ddf0143813">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-12.0.1_d5aae85ad0e8f9d7d734c7f9d59af10dba05995b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\android.arch.lifecycle-livedata-core-1.1.0_eb3fa54b3b8bdd531d0a639850d88c90b2c0be92\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="3b4f6cc6ce5d50a6be2446e95453df67c775d9c2">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-12.0.1_23fe120b3a124cbc7a3786938e7dacc691494584\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="a38a8974c8d066800237d22a86df2e88cb9e065c">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-12.0.1_9a83621f52586846412ff6c5bfcc42f087af0307\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="5e06d434af7b23e02dc14ec9cb90beb3489a2231">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-12.0.1_22346826e3002ef2a4a53cd52afb0e8c985d420b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="9e6b8e8482fc919595c625c1484a8cd5206e5af9">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-12.0.1_b501e7197c6984ac89a59d8f29101fb2cfbcf13b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-27.1.1_551f3cb7d34fef35e90a7c655c29c2dcc2eff11f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="d8ec04dc91c0c90a0ceeca77c94c8b15cb7f3892">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-12.0.1_4192286e8dee32cc0fc91665c47579edd987ad48\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-27.1.1_843e12d953f2065f4bafe2d50e2b46e3c2f86adc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\12.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="28.0.3"
+        sha1="1682c8c465ce1a4912cc0f29754360da068d479d">
+        <dex dex="C:\Users\Lucas\Documents\GitHub\HairStyle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-12.0.1_e97f0d3646a6ba45fb78b35f69b2fe0c46d1cb13\classes.dex" />
+    </item>
+
+</items>

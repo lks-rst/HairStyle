@@ -2,71 +2,83 @@ package comhs.fundationdev.hairstyle.negocio.objects;
 
 import org.json.JSONObject;
 
-/**
- * Created by lucas on 09/02/16.
- */
-public class Servico extends Entidade{
+public class Servico extends Entidade {
     private int codigo;
     private String descricao;
-    private float valorMinimo;
     private float valorMaximo;
+    private float valorMinimo;
+    private float valorRealizado;
 
-    public int getCodigo() {
-        return codigo;
+    public Servico() {
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    public Servico(JSONObject jsonObject) {
+        try {
+            setValorMinimo((float) jsonObject.getDouble("valorMinimo"));
+            setValorMaximo((float) jsonObject.getDouble("valorMaximo"));
+            setDescricao(jsonObject.getString("descricao"));
+            setCodigo(jsonObject.getInt("id"));
+        } catch (Exception e) {
+        }
+    }
+
+    public int getCodigo() {
+        return this.codigo;
+    }
+
+    public void setCodigo(int codigo2) {
+        this.codigo = codigo2;
     }
 
     public String getDescricao() {
-        return descricao;
+        return this.descricao;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setDescricao(String descricao2) {
+        this.descricao = descricao2;
     }
 
     public float getValorMinimo() {
-        return valorMinimo;
+        return this.valorMinimo;
     }
 
-    public void setValorMinimo(float valorMinimo) {
-        this.valorMinimo = valorMinimo;
+    public void setValorMinimo(float valorMinimo2) {
+        this.valorMinimo = valorMinimo2;
     }
 
     public float getValorMaximo() {
-        return valorMaximo;
+        return this.valorMaximo;
     }
 
-    public void setValorMaximo(float valorMaximo) {
-        this.valorMaximo = valorMaximo;
+    public float getValorRealizado() {
+        return this.valorRealizado;
     }
 
-    @Override
+    public void setValorRealizado(float valorRealizado2) {
+        this.valorRealizado = valorRealizado2;
+    }
+
+    public void setValorMaximo(float valorMaximo2) {
+        this.valorMaximo = valorMaximo2;
+    }
+
     public String toString() {
-        return "Servico{" +
-                "codigo=" + this.codigo +
-                ", descricao='" + this.descricao + '\'' +
-                ", valorMinimo=" + this.valorMinimo +
-                ", valorMaximo=" + this.valorMaximo +
-                '}';
+        return this.codigo + " - " + this.descricao;
     }
 
-    @Override
-    public Entidade toEntidade(JSONObject object)
-    {
+    /* Debug info: failed to restart local var, previous not found, register: 4 */
+    public Entidade toEntidade(JSONObject object) {
         try {
-            this.setValorMaximo((float) object.getDouble("valorMinimo"));
-            this.setValorMinimo((float) object.getDouble("valorMaximo"));
-            this.setDescricao(object.getString("descricao"));
-            this.setCodigo(object.getInt("id"));
+            setValorMaximo((float) object.getDouble("valorMinimo"));
+            setValorMinimo((float) object.getDouble("valorMaximo"));
+            setDescricao(object.getString("descricao"));
+            setCodigo(object.getInt("id"));
             return this;
+        } catch (Exception e) {
+            return null;
         }
-        catch (Exception e){return null;}
     }
 
-    @Override
     public JSONObject toJsonObject(Entidade object) {
         return null;
     }

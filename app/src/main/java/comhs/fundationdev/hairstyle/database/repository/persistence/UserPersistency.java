@@ -1,17 +1,19 @@
 package comhs.fundationdev.hairstyle.database.repository.persistence;
 
 import android.content.Context;
-import comhs.fundationdev.hairstyle.R;
-import comhs.fundationdev.hairstyle.exeption.GenercicException;
-import comhs.fundationdev.hairstyle.exeption.NotImplementedException;
-import comhs.fundationdev.hairstyle.negocio.objects.User;
-import comhs.fundationdev.hairstyle.util.ServerConect;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import comhs.fundationdev.hairstyle.R;
+import comhs.fundationdev.hairstyle.exeption.GenercicException;
+import comhs.fundationdev.hairstyle.exeption.NotImplementedException;
+import comhs.fundationdev.hairstyle.negocio.objects.User;
+import comhs.fundationdev.hairstyle.util.ServerConect;
 
 public class UserPersistency implements Persistencia<User> {
     private ServerConect conection;

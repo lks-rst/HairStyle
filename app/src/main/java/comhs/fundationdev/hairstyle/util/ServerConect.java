@@ -2,10 +2,12 @@ package comhs.fundationdev.hairstyle.util;
 
 import android.content.Context;
 import android.util.Log;
+
 import com.google.android.gms.search.SearchAuth.StatusCodes;
-import comhs.fundationdev.hairstyle.control.ControlLogin;
-import comhs.fundationdev.hairstyle.database.repository.tabelas.UserTable;
-import comhs.fundationdev.hairstyle.negocio.objects.Atendimento;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -24,10 +26,18 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import comhs.fundationdev.hairstyle.control.ControlLogin;
+import comhs.fundationdev.hairstyle.database.repository.tabelas.UserTable;
+import comhs.fundationdev.hairstyle.negocio.objects.Atendimento;
+import cz.msebera.android.httpclient.client.methods.HttpPost;
+
+
+/*
+TODO: Solve HTTP connections
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.json.JSONArray;
-import org.json.JSONObject;
+*/
 
 public class ServerConect {
     private final int INSERE_ATENDIMENTO = 1;
@@ -207,7 +217,10 @@ public class ServerConect {
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setReadTimeout(StatusCodes.AUTH_DISABLED);
             urlConnection.setConnectTimeout(15000);
+            /*
+            TODO: Solve HTTP connections
             urlConnection.setRequestMethod(HttpGet.METHOD_NAME);
+            */
             urlConnection.setDoInput(true);
             urlConnection.setDoOutput(true);
             List<NameValuePair> params = new ArrayList<>();
@@ -245,6 +258,7 @@ public class ServerConect {
         urlConnection.disconnect();
         return builder.toString();
     }
+/*
 
     public JSONArray buscarUsuarios() {
         URL url = null;
@@ -289,6 +303,7 @@ public class ServerConect {
             return null;
         }
     }
+*/
 
     public JSONObject buscarUsuario(String collOne) {
         JSONObject jsonObject = null;
@@ -328,7 +343,10 @@ public class ServerConect {
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setReadTimeout(StatusCodes.AUTH_DISABLED);
             urlConnection.setConnectTimeout(15000);
+            /*
+            TODO: Solve HTTP connections
             urlConnection.setRequestMethod(HttpGet.METHOD_NAME);
+            */
             urlConnection.setDoInput(true);
         } catch (IOException e3) {
             e3.printStackTrace();
@@ -481,8 +499,8 @@ public class ServerConect {
                 return jsonObject;
             }
         } catch (Exception e2) {
-            e = e2;
-            e.printStackTrace();
+            e2 = e2;
+            e2.printStackTrace();
             ControlLogin.TASK_RESULT = Boolean.valueOf(true);
             return jsonObject;
         }

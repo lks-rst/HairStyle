@@ -37,7 +37,12 @@ public class ControlLogin {
                 return null;
             }
         } else {
-            buscarItem = this.model.buscarItem(getUsr(), getPswd());
+            try {
+                buscarItem = this.model.buscarItem(getUsr(), getPswd());
+            } catch (GenercicException e2) {
+                e2.printStackTrace();
+                return null;
+            }
         }
         return (User) buscarItem;
     }

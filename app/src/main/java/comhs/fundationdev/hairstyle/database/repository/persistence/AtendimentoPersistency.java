@@ -2,6 +2,9 @@ package comhs.fundationdev.hairstyle.database.repository.persistence;
 
 import android.content.Context;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 import comhs.fundationdev.hairstyle.R;
@@ -10,103 +13,78 @@ import comhs.fundationdev.hairstyle.exeption.NotImplementedException;
 import comhs.fundationdev.hairstyle.negocio.objects.Atendimento;
 import comhs.fundationdev.hairstyle.util.ServerConect;
 
-/**
- * Created by lucas on 11/02/16.
- */
 public class AtendimentoPersistency implements Persistencia<Atendimento> {
-    private Context ctx;
-    private StringBuilder sBuilder;
     private ServerConect conection;
+    private Context ctx;
+    private Connection myConnection;
+    private StringBuilder sBuilder = new StringBuilder();
+    private Statement statement;
 
-    public AtendimentoPersistency(Context context)
-    {
+    public AtendimentoPersistency(Context context) {
         this.ctx = context;
-        this.sBuilder = new StringBuilder();
-        this.conection = new ServerConect(context, (context.getString(R.string.url_user)));
+        this.conection = new ServerConect(context, context.getString(R.string.url_attendance_single_service));
+        this.myConnection = PersistencySingleton.getMyDataBase(context);
     }
 
-
-    @Override
     public void inserir(Atendimento object) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        try {
+            this.statement = this.myConnection.createStatement();
+            this.statement.executeUpdate("insert into geral_prevenda(empre_codigo, prevenda_data, prevenda_codigo, prevenda_hora, repre_codigo, cli_codigo, prevenda_total) values (1, '" + object.getDataFim() + "', " + object.getServico().getCodigo() + ", '" + object.getHoraFim() + "', " + object.getAtendente().getId() + ", " + object.getCliente().getCodigo() + ", " + object.getServico().getValorRealizado() + ")");
+            this.statement.setQueryTimeout(0);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
-    @Override
     public void inserir(String strObject) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public List<Atendimento> buscarTodos() throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public List<Atendimento> buscarItensData(String dataInicail, String dataFinal) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public List<Atendimento> buscarTodos(String descricao) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public List<String> buscarString() throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public Atendimento buscarItem(String referencia) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public Atendimento buscarItem(int referencia, String secondCollun) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public Atendimento buscarItem(String referencia, String secondCollun) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public List<Atendimento> buscarItens(String referencia, String secondCollun) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public Boolean alterarItem(Atendimento item) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public Boolean alterarItem(Long id, Atendimento item) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public void excluirItem(Atendimento item) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 
-    @Override
     public void excluirItem(int id) throws GenercicException {
-        throw new NotImplementedException(
-                this.ctx.getResources().getString(R.string.notImplemented_exeption));
+        throw new NotImplementedException(this.ctx.getResources().getString(R.string.notImplemented_exeption));
     }
 }

@@ -1,50 +1,54 @@
 package comhs.fundationdev.hairstyle.negocio.objects;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Created by lucas on 09/02/16.
- */
-public class Cliente extends Entidade{
+public class Cliente extends Entidade {
     private int codigo;
     private String nome;
 
-    public int getCodigo() {
-        return codigo;
+    public Cliente() {
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    public Cliente(JSONObject jsonObject) {
+        try {
+            setNome(jsonObject.getString("nome"));
+            setCodigo(jsonObject.getInt("id"));
+        } catch (JSONException e) {
+        }
+    }
+
+    public int getCodigo() {
+        return this.codigo;
+    }
+
+    public void setCodigo(int codigo2) {
+        this.codigo = codigo2;
     }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String nome2) {
+        this.nome = nome2;
     }
 
-    @Override
     public String toString() {
-        return "Cliente{" +
-                "codigo=" + this.codigo +
-                ", nome='" + this.nome + '\'' +
-                '}';
+        return this.codigo + " - " + this.nome;
     }
 
-    @Override
-    public Entidade toEntidade(JSONObject object)
-    {
+    /* Debug info: failed to restart local var, previous not found, register: 2 */
+    public Entidade toEntidade(JSONObject object) {
         try {
-            this.setNome(object.getString("nome"));
-            this.setCodigo(object.getInt("id"));
+            setNome(object.getString("nome"));
+            setCodigo(object.getInt("id"));
             return this;
+        } catch (Exception e) {
+            return null;
         }
-        catch (Exception e){return null;}
     }
 
-    @Override
     public JSONObject toJsonObject(Entidade object) {
         return null;
     }
